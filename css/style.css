@@ -1,0 +1,96 @@
+.body {
+  margin-top: 10em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.main-part {
+  border-radius: 6px;
+  padding: 2em;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  background: aliceblue;
+  font-size: x-large;
+  max-width: 350px;
+}
+
+.footer-content {
+  color: #fff;
+  margin: 20px;
+  font-size: large;
+}
+
+A:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+A:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+A:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+A:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.button {
+  color: #fff;
+  user-select: none;
+  padding: .7em 1.5em;
+  outline: none;
+  border-radius: 6px;
+}
+
+.button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.button:active {
+  opacity: 1.9;
+  cursor: pointer;
+}
+
+.post:before {
+  font-family: FontAwesome;
+  content: "\f099";
+  font-size: 25px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: row;
+}
+
+.shevron {
+  font-size: 100px;
+}
+
+.text {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.john-hancock {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 15px;
+}
